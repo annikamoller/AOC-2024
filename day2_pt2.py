@@ -39,5 +39,3 @@ safe_reports = 0
 for report in data:
     if is_safe(report) or safe_by_removing_level(report):
         safe_reports += 1
-
-print(safe_reports)
